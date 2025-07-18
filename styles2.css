@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    background-color: #ffffff;
+    font-size: x-large;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+div {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.none {
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    border-color: blue;
+    width: 200px;
+    font-size: 30px;
+}
+
+#hd3, p, button, h3, ul, a, {
+    position: relative;
+    top: 50px;
+}
+
+input , button {
+    font-size: x-large;
+}
