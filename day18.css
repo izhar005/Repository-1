@@ -1,0 +1,22 @@
+body{
+    background-image: url(https://i.pinimg.com/736x/37/c4/9c/37c49cc02c979891843d826da91c192e.jpg);
+    position: relative;
+    top: 50px;
+    justify-items: center;
+}
+h4{
+    position: relative;
+    bottom: 40px;
+    left: 25px;
+}
+.login{
+    position: relative;
+    bottom: 82px;
+    left: 130px;
+}
+
+.buttons{
+    position: relative;
+    bottom: 90px;
+    left: 20px;
+}
