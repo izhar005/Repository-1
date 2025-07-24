@@ -1,0 +1,37 @@
+img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    position: relative;
+    left: 50px;
+    top: 30px;
+}
+
+h1 {
+    position: relative;
+    left: 50px;
+    top: 40px;
+}
+
+div {
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+#hobby {
+    position: relative;
+    left: 550px;
+    top: -420px;
+}
+
+#para {
+    position: relative;
+    left: 550px;
+    top: -405px;
+}
+
+body {
+    height: 90vh;
+    background-image: url(https://i.pinimg.com/736x/ac/ce/38/acce38dab316d17afc60fd52e8ea67eb.jpg);
+    background-size: cover;
+}
