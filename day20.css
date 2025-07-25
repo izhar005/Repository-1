@@ -1,0 +1,114 @@
+header {
+    background-color: #007872;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+
+}
+
+#logo {
+    font-size: x-large;
+    color: white;
+    width: 30px;
+}
+
+#sidebar {
+    background-color: #82c4be;
+    margin: 20px;
+    height: 400px;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+    width: 230px;
+    border-radius: 15px;
+}
+
+#content {
+    margin: 20px;
+    height: 150px;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+    width: 955px;
+    position: relative;
+    bottom: 460px;
+    left: 300px;
+    background-color: #b8dddc;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#fa {
+     margin: 20px;
+    height: 190px;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+    width: 280px;
+    position: relative;
+    bottom: 460px;
+    left: 300px;
+    background-color: #b8dddc;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#fb {
+    margin: 20px;
+    height: 190px;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+    width: 280px;
+    position: relative;
+    bottom: 710px;
+    left: 635px;
+    background-color: #b8dddc;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#fc {
+     margin: 20px;
+    height: 190px;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+    width: 280px;
+    position: relative;
+    bottom: 960px;
+    left: 970px;
+    background-color: #b8dddc;
+    text-align: center;
+    border-radius: 15px;
+}
+
+h1 {
+    margin: 20px auto;
+    padding: 20px;
+    width: 1255px;
+    background-color: #419e98;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    bottom: 960px;
+}
+
+#footer {
+    margin: 20px auto;
+    padding: 15px;
+    width: 1290px;
+    background-color: #007872;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    bottom: 960px;
+    font-size: large;
+}
