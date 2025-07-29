@@ -1,0 +1,113 @@
+body {
+    font-family: arial;
+    color: white;
+    background-color: black;
+}
+
+.nav {
+    height: 100px;
+    width: auto;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+    text-shadow:  2px 2px, 0 0 25px white, 0 0 5px whitesmoke;
+}
+
+.nav h1 {
+    display: flex;
+    position: relative;
+    top: 30px;
+    left: 80px;
+    text-transform: uppercase;
+    font-weight: 540;
+    cursor: pointer;
+}
+
+.nav-1 a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 780px;
+    bottom: 20px;
+    margin: 20px;
+    text-transform: uppercase;
+    font-weight: 500p   x;
+    font-size: larger;
+}
+
+.info  {
+    font-size: larger;
+    padding-left: 85px;
+    position: relative;
+    top: 30px;
+
+}
+
+.pro {
+    font-size: larger;
+    padding-left: 85px;
+    position: relative;
+    top: 80px;
+}
+
+.img-0 {
+    position: relative;
+    bottom: 15px;
+}
+
+.img-1 {
+    position: relative;
+    left: 200px;
+    bottom: 220px;
+    margin-left: 
+}
+
+.img-2 {
+    position: relative;
+    left: 370px;
+    bottom: 430px; 
+}
+ 
+.arrow {
+    position: relative;
+    bottom: 850px;
+    left: 650px;
+}
+
+.para p {
+    position: relative;
+    bottom: 1162px;
+    left: 858px;
+    color: black;
+    font-weight: 600;
+}
+
+.para img {
+    position: relative;
+    bottom: 1150px;
+    left: 780px;
+    height: 300px;   
+}
+.para input {
+    position: relative;
+    bottom: 1330px;
+    left: 535px;
+    height: 30px;
+}
+
+.para h4 {
+    position: relative;
+    bottom: 1420px;
+    left: 835px;
+    height: 30px;
+}
+
+.con input {
+    left: 840px;
+}
+
+.design {
+    position: relative;
+    left: 50px;
+}
