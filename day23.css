@@ -1,0 +1,254 @@
+body {
+    text-transform: uppercase;
+    font-family: arial;
+    background-color: black;
+    color: white;
+}
+
+.nav {
+    height: 100px;
+    width: auto;
+}
+
+.nav h1 {
+    justify-content: center;
+    position: relative;
+    top: 33px;
+    left: 210px;
+}
+
+.nav a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    left: 720px;
+    margin: 40px;
+    bottom: 17px;
+    font-weight: 550;
+    font-size: large;
+}
+
+.nav i {
+    position: relative;
+    left: 598px;
+    bottom: 19px;
+}
+
+#i-1 {
+    position: relative;
+    left: 545px;
+    bottom: 18px;
+}
+
+#i-2 {
+    position: relative;
+    left: 568px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(autofill,minmax(200px,auto));
+    margin-top: 20px;
+    gap: 15px;
+}
+.class1{
+    border: 2px white solid;
+    grid-column: 3/5;
+    grid-row: 2/3;
+    position: relative;
+    height: 350px;
+    border-radius: 10px;
+    background-color: black;
+    transition: transform 0.3 ease-in-out;
+}
+
+.class1:hover {
+    transform: scale(1.05);
+}
+
+.class2{
+    border: 2px white solid;
+    grid-column: 5/7;
+    grid-row: 2/3;
+    background-color: black;
+    border-radius: 10px;
+    transition: transform 0.3 ease-in-out;
+}
+
+.class2:hover {
+    transform: scale(1.05);
+}
+
+.class3{
+    border: 2px white solid;
+    grid-column: 3/5;
+    grid-row: 3/6;
+    background-color: black;
+    border-radius: 10px;
+    transition: transform 0.3 ease-in-out;
+}
+
+.class3:hover {
+    transform: scale(1.05);
+}
+
+.class4{
+    border: 2px white solid;
+    grid-column: 5/7;
+    grid-row: 3/6;
+    position: relative;
+    height: 350px;
+    background-color: black;
+    border-radius: 10px;
+    transition: transform 0.3 ease-in-out;
+}
+
+.class4:hover {
+    transform: scale(1.05);
+}
+
+.class1 img {
+    height: 80px;
+    position: relative;
+    top: 10px;
+    left: 120px;
+
+}
+
+.class2 img {
+    height: 80px;
+    position: relative;
+    left: 12px;
+    top: 10px;
+    left: 120px;
+}
+
+.class3 img {
+    height: 80px;
+    position: relative;
+    left: 12px;
+    top: 10px;
+    left: 120px;
+}
+
+.class4 img {
+    height: 80px;
+    position: relative;
+    left: 12px;
+    top: 10px;
+    left: 120px;
+}
+
+.class1 h3 {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    margin-top: 50px;
+}
+
+.class1 p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.class2 h3 {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    margin-top: 50px;
+}
+
+.class2 p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.class3 h3 {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    margin-top: 50px;
+}
+
+.class3 p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.class4 h3 {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    margin-top: 50px;
+}
+
+.class4 p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.bg img {
+    height: 400px;
+    position: relative;
+    bottom: 860px;
+    left: 40px;
+}
+
+.bg-1 img {
+    height: 400px;
+    position: relative;
+    bottom:1260px;
+    left: 1070px;
+}
+
+.bg-2 img {
+    position: relative;
+    bottom: 1690px;
+    left: 597px;
+    height: 200px
+}
+
+.bg-3 img {
+    position: relative;
+    bottom: 1530px;
+    right: 30px;
+}
+
+.bg-4 img {
+    position: relative;
+    bottom: 2197px;
+    left: 990px;
+}
+
+#x-icon {
+    height: 50px;
+    position: relative;
+    left: -45px;
+    top: 80px;
+}
+
+#face-icon {
+    height: 50px;
+    left: -35px;
+    position: relative;
+    top: 80px;
+}
+
+#goo-icon {
+    height: 50px;
+    position: relative;
+    left: -30px;
+    top: 80px;
+}
+
+#in-icon {
+    height: 50px;
+    position: relative;
+    left: -20px;
+    top: 80px;
+}
