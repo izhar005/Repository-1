@@ -1,0 +1,123 @@
+body {
+    background-color: black;
+    font-family: s;
+    color: blue;
+    overflow: hidden;
+    background-image: url(black-sky.jpg)
+}
+
+.nav {
+    height: 100px;
+    width: auto;
+    margin-top: 20px;
+}
+
+@font-face {
+    font-family: s;
+    src: url(Super.ttf);
+}
+
+.nav h1 {
+    position: relative;
+    font-family: s;
+    top: 22px;
+    left: 50px;
+    font-size: xxx-large;
+    font-weight: 300;
+}
+
+.nav a {
+    text-decoration: none;
+    font-family: s;
+    position: relative;
+    left: 900px;
+    font-size: x-large;
+    margin: 10px;
+    bottom: 52px;
+}
+
+.info h1 {
+    position: relative;
+    padding: 50px;
+    width: 400px;
+    margin-top: 35px;
+    font-size: xxx-large;
+}
+
+.info p {
+    position: relative;
+    left: 50px;
+    font-size: x-large;
+    width: 300px;
+    bottom: 60px;
+}
+
+.info button {
+    position: relative;
+    left: 45px;
+    bottom: 30px;
+    padding: 16px 32px;
+    font-size: x-large;
+    text-transform: uppercase;
+    font-weight: 200;
+    background: transparent;
+    color: blue;
+    border-radius: 10px;
+    border: 2px solid blue;
+    font-family: s;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: blue;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+button:hover::before {
+    width: 100%;
+}
+
+button:hover {
+    color: black;
+}
+
+.info img {
+    position: relative;
+    bottom: 450px;
+
+}
+
+.images img {
+    position: relative;
+    height: 850px;
+    bottom: 1050px;
+    left: 220px;
+}
+
+.info ul li {
+    position: relative;
+    font-size: xxx-large;
+    bottom: 430px;
+    left: 900px;
+    margin: 30px;
+}
+
+
+.images p {
+    position: relative;
+    bottom: 1290px;
+    left: 950px;
+    font-size: xx-large;
+    justify-content: center;
+}
